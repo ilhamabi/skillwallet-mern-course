@@ -1,0 +1,27 @@
+/* Subtask 3.1. Style the Container */
+.container { 
+    text-align: center; 
+    margin-top: 50px; 
+}
+
+/* Subtask 3.2. Style Controls */
+input, button { 
+    margin: 5px; 
+    padding: 5px; 
+}
+
+#hover-zone{
+    background: white;
+    width: 100px;
+    margin: 10px auto;
+    padding: 30px;
+}
+
+button:hover { 
+    background: lightblue; 
+    cursor: pointer; 
+}
+
+input:focus { 
+    border: 2px solid orange; 
+}
